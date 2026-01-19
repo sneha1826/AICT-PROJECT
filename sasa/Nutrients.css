@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #1f2937;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: #05494a;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: whitesmoke;
+  padding-left: 30px;
+}
+
+nav ul {
+  font-size: 17px;
+  gap: 60px;
+  display: flex;
+  list-style: none;
+  padding: 22px;
+}
+
+nav li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #b5a066;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.text-section {
+  width: 60%;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.text-section h1 {
+  color: #0f766e;
+  font-size: 35px;
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
+.text-section .intro {
+  font-size: 17px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.text-section h3 {
+  color: #0f766e;
+  margin-top: 25px;
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.lists ul {
+  font-size: 17px;
+}
+
+.image-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 100%;
+  margin-top: 60px;
+}
+
+#recommended {
+  border: 3px solid black;
+  width: 80%;
+  padding: 14px;
+  border-radius: 15px;
+  background-color: #05494a;
+  color: aliceblue;
+  margin-top: 30px;
+}
+#recommended h4{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#recommended p{
+    text-align: justify;
+    text-align-last: center;
+}
+#button{
+    text-align: center;
+}
+button a{
+  color: black;
+  text-decoration: none;
+}
+button{
+  font-size: 15px;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 9px;
+}

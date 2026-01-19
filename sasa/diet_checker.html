@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Checker</title>
+    <link rel="stylesheet" href="diet_checker.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <h2>NUTRITION</h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="protein.html">PROTEIN</a></li>
+                <li><a href="carbohydrate.html">CARBOHYDRATES</a></li>
+                <li><a href="fat.html">FATS</a></li>
+                <li><a href="diet_checker.html">DIET CHECKER</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 id="diet">Diet Checker</h1>
+    <main>
+        <form action="" onsubmit="Check(event)">
+            <div class="Instructions">
+                <h3>Instructions:</h3>
+                <ul>
+                    <li>Weight should be in Kg</li>
+                    <li>Nutrients should be in grams</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Enter Your Details:</h3>
+                <label class="labels" for="weight">Weight:</label>
+                <input type="number" id="weight" placeholder="Kilograms" required><br>
+                <label class="labels" for="fats">Fats:</label>
+                <input type="number" id="fats" placeholder="Grams" required><br>
+                <label class="labels" for="carbs">Carbohydrates:</label>
+                <input type="number" id="carbs" placeholder="Grams" required><br>
+                <label class="labels" for="proteins">Proteins:</label>
+                <input type="number" id="proteins" placeholder="Grams" required><br>
+            </div>
+            <div id="button">
+                <button type="submit">Check</button>
+            </div>
+        </form>
+    </main>
+    <section>
+        <div id="result">
+            <table>
+                <tr id="table-heading">
+                    <td>Nutrient</td>
+                    <td>Intake</td>
+                    <td>Status</td>
+                    <td class="required">Required</td>
+                </tr>
+                <tr>
+                    <td class="links"><a href="fat.html">Fats</a></td>
+                    <td id="fat-in"></td>
+                    <td id="fat-status"></td>
+                    <td class="required" id="fat-required"></td>
+                </tr>
+                <tr>
+                    <td class="links"><a href="carbohydrate.html">Carbohydrates</a></td>
+                    <td id="carb-in"></td>
+                    <td id="carb-status"></td>
+                    <td class="required" id="carb-required"></td>
+                </tr>
+                <tr>
+                    <td class="links"><a href="protein.html">Proteins</a></td>
+                    <td id="protein-in"></td>
+                    <td id="protein-status"></td>
+                    <td class="required" id="protein-required"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="DietChecker.js"></script>
+
+</body>
+
+</html>

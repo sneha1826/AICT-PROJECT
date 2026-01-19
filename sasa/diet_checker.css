@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1f2937;
+    overflow-x: hidden;
+    background-image: url(../Images/Background.jpeg);
+
+}
+
+.navbar {
+    background-color: #05494a;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding-left: 30px;
+}
+
+nav ul {
+    font-size: 17px;
+    gap: 60px;
+    display: flex;
+    list-style: none;
+    padding: 22px;
+}
+
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #b5a066;
+    text-decoration: underline;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: black;
+
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 3px solid rgb(13, 71, 87);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.Instructions h3 {
+    margin: 0px;
+}
+
+.Instructions ul {
+
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.labels {
+    display: inline-block;
+    min-width: 150px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+input {
+    padding: 3px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #bbc5c5;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 9px;
+}
+
+button:hover {
+    color: #05494a;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: #05494a;
+    color: aliceblue;
+}
+
+#table-heading {
+    font-weight: bold;
+}
+
+.links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+td {
+    padding: 8px 12px;
+    border: 2px solid black;
+    text-align: center;
+    min-width: 90px;
+}
+
+.required {
+    min-width: 120px;
+}
+
+#result {
+    padding: 40px 0 40px 0px;
+    display: none;
+}
+
+form {
+    background-color: #05494a;
+    color: aliceblue;
+}
