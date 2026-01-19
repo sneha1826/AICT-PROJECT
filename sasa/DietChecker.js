@@ -53,9 +53,9 @@ function Check(event) {
         document.getElementById("carb-in").innerHTML = carbs + "g";
         document.getElementById("protein-in").innerHTML = proteins + "g";
 
-        document.getElementById("fat-required").innerHTML = (weight * 0.5) + "g - " + (weight * 1.2) + "g";
-        document.getElementById("carb-required").innerHTML = (weight * 3) + "g - " + (weight * 5) + "g";
-        document.getElementById("protein-required").innerHTML = (weight * .8) + "g - " + (weight * 1.2) + "g";
+        document.getElementById("fat-required").innerHTML = (weight * 0.5).toFixed(2) + "g - " + (weight * 1.2).toFixed(2) + "g";
+        document.getElementById("carb-required").innerHTML = (weight * 3).toFixed(2) + "g - " + (weight * 5).toFixed(2) + "g";
+        document.getElementById("protein-required").innerHTML = (weight * .8).toFixed(2) + "g - " + (weight * 1.2).toFixed(2) + "g";
 
         document.getElementById("result").style.display = "block";
     }
